@@ -7,3 +7,4 @@ git branch para crear una rama
 git merge y le pasamos lo que queremos unir al master "paginaBoostrap"
 git checkout master para volver
 GITHUB
+git push para guardar en github
