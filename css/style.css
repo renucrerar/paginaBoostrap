@@ -38,3 +38,9 @@
     height: 500px;
     width: 900px;
  }
+ @media (max-width: 760px){
+    .imgAdoptar{
+        max-width: 400px;
+        max-height: 300px;
+    }
+ }
