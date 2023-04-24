@@ -9,6 +9,16 @@
   .mainInicio {
     background-image: url(../img/patitasRosas.png);
   }
+  .footer {
+    display: flex;
+  }
+  .footer .imgFooter {
+    width: 100px;
+    height: 100px;
+  }
+  .footer {
+    font-size: small;
+  }
 }
 .cuerpo img {
   width: 150px;
