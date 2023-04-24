@@ -1,0 +1,11 @@
+{
+  "name": "boostrap",
+  "version": "1.0.0",
+  "description": "Descargamos git, para instalarlo en nuestra pc. \r Git add ... para agregar cambios nuevos.\r Git commit -m para \"comentar\"\r Git status para chequear que haya guardado\r git log se usa para saber cuando y quien hizo el ultimo commit\r git branch para crear una rama\r git merge y le pasamos lo que queremos unir al master \"paginaBoostrap\"\r git checkout master para volver\r GITHUB\r git push para guardar en github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
