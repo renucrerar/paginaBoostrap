@@ -70,4 +70,16 @@
   height: 400px;
 }
 
+footer a {
+  color: black;
+}
+
+footer {
+  background-image: linear-gradient(to top, rgb(226, 43, 226), transparent);
+}
+
+header {
+  background-image: linear-gradient(to bottom, rgb(226, 43, 226), transparent);
+}
+
 /*# sourceMappingURL=style.css.map */
