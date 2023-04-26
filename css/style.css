@@ -9,6 +9,9 @@
   .mainInicio {
     background-image: url(../img/patitasRosas.png);
   }
+  header .logo {
+    animation: none;
+  }
 }
 .cuerpo img {
   width: 150px;
@@ -80,6 +83,24 @@ footer {
 
 header {
   background-image: linear-gradient(to bottom, rgb(226, 43, 226), transparent);
+}
+
+@keyframes mimovimiento {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(200px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+header .logo {
+  animation-name: mimovimiento;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 2;
 }
 
 /*# sourceMappingURL=style.css.map */
