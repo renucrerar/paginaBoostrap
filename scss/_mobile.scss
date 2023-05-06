@@ -6,8 +6,90 @@
     .mainInicio .imgVeterinario{
     display: none;
   }
-  .mainInicio{
- background-image: url(../img/patitasRosas.png);
-    }
-     
-    }
+  .carousel-inner .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+      /*grid*/
+      .header-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        justify-items: center;
+        align-items: center;
+      }
+      
+      .logo {
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
+      }
+      
+      .boton {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+      }
+      .mainAdoptar{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+      }
+     .mainAdoptar h1 {
+        font-size: 30px;
+        text-align: center; 
+        grid-column: 2;
+      }
+      
+     .mainAdoptar p {
+        font-size: 1rem; 
+        text-align: justify;
+        grid-column: 3;
+      }
+      
+      .container {
+        width: 90%;
+        margin: 0 auto;
+      }
+    
+      .header-container{
+              margin-bottom: auto;
+      }
+   .imagenesAdoptar{
+           display: flex;
+   }
+   .img1{
+    display: none;
+   }  
+   .img2{
+    display: none;
+   } 
+   .img3{
+    display: none;
+   }    
+   .imagenesAdoptar .img4{
+   
+    width: 80px;
+    height: 80px;
+   } 
+  .imagenesAdoptar .img5{
+  
+    width: 80px;
+    height: 80px;
+   } 
+   .imagenesAdoptar .img6{
+
+    width: 80px;
+    height: 80px;
+   } 
+  .imagenesAdoptar .img7{
+
+    width: 80px;
+    height: 80px;
+   }
+   .texto4{
+    grid-column: 5;
+   }
+}
